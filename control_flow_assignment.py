@@ -12,12 +12,14 @@ def even_numbers ():
 # if the number is prime, and "Not prime" if the number is not prime.   
 def integer_argument (num):
     if num >1:
-        for i in (2,num):
-            if num%i==0:
-                print(f"{num} Prime")   
-                break
+        for i in range(2,num):
+            if num % i == 0:
+                print(f"{num} Not Prime")
+                break  
         else:
-            print(f"{num} Not prime") 
+            print(f"{num}  prime")  
+            
+       
 
 # Write a function that takes a list of integers as input and prints 
 # the sum of all the even numbers in the list. 
@@ -37,6 +39,9 @@ def two_integers (int1,int2):
         if i%3 ==0:
             sum+=i
     print (sum)        
+
+
+ 
 
             
 

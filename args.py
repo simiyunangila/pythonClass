@@ -1,6 +1,3 @@
-
- 
-
 def my_country(country="Rwanda"):
     print(f"I am from {country}")
 def greet(*names):
